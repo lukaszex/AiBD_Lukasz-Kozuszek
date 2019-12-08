@@ -1,0 +1,3 @@
+Za przeróbkê danych odpowiada plik process_data.py. W wyniku otrzymujemy plik weather_tidy.csv, który zawiera 
+posegregowane dane pogodowe.
+

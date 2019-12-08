@@ -1,0 +1,58 @@
+Dane modelu 1:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       courseevaluation   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.034
+Method:                 Least Squares   F-statistic:                     17.08
+Date:                Sun, 08 Dec 2019   Prob (F-statistic):           4.25e-05
+Time:                        22:53:53   Log-Likelihood:                -375.32
+No. Observations:                 463   AIC:                             754.6
+Df Residuals:                     461   BIC:                             762.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          4.0100      0.026    157.205      0.000       3.960       4.060
+btystdave      0.1330      0.032      4.133      0.000       0.070       0.196
+==============================================================================
+Omnibus:                       15.399   Durbin-Watson:                   1.410
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               16.405
+Skew:                          -0.453   Prob(JB):                     0.000274
+Kurtosis:                       2.831   Cond. No.                         1.29
+==============================================================================
+
+
+
+Dane modelu 2:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       courseevaluation   R-squared:                       0.057
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     3.929
+Date:                Sun, 08 Dec 2019   Prob (F-statistic):           0.000355
+Time:                        22:54:44   Log-Likelihood:                -370.16
+No. Observations:                 463   AIC:                             756.3
+Df Residuals:                     455   BIC:                             789.4
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          4.0133      0.026    154.810      0.000       3.962       4.064
+btystdave  -1.624e+04   1.81e+05     -0.090      0.928   -3.71e+05    3.39e+05
+btystdf2u   2707.3177   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+btystdfl    2707.2808   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+btystdfu    2707.3709   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+btystdm2u   2707.3324   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+btystdml    2707.2220   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+btystdmu    2707.3721   3.01e+04      0.090      0.928   -5.65e+04    6.19e+04
+==============================================================================
+Omnibus:                       21.286   Durbin-Watson:                   1.442
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.474
+Skew:                          -0.550   Prob(JB):                     7.99e-06
+Kurtosis:                       2.922   Cond. No.                     1.63e+07
+==============================================================================
+
+
+Nie wklejam wyników predykcji, bo jest ich zbyt du¿o.

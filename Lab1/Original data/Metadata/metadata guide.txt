@@ -1,0 +1,1 @@
+Plik weather.csv - oryginalne dane zawieraj¹ce pomiary temperatury ze stacji pogodowej z Meksyku.
